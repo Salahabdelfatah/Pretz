@@ -17,3 +17,7 @@ h1,.text-dark h1{
 .p-dropdown a:not(.btn),i.icon-globe {
     color: rgb(155, 47, 43) !important;
 }
+p{
+    font-size: 18px;
+    font-weight: 400;
+  }
