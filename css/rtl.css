@@ -661,3 +661,9 @@ form a small {
   left: 26px;
   right: auto;
 }
+
+h1,h2,h3,h4,h5,h6,p,a,address,
+#mainMenu nav > ul > li > a,abbr, .widget {
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+

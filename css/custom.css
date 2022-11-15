@@ -6,6 +6,13 @@
  <link href="css/custom.css" rel="stylesheet">
 
 */
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  
 h1,.text-dark h1{
     color: rgb(155, 47, 43) !important;
 }
@@ -14,7 +21,8 @@ h1,.text-dark h1{
     background-color: #fff !important;
 }
 #mainMenu nav > ul > li > a,
-.p-dropdown a:not(.btn),i.icon-globe {
+.p-dropdown a:not(.btn),i.icon-globe,address strong,
+.widget-title  {
     color: rgb(155, 47, 43) !important;
 }
 
