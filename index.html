@@ -9,14 +9,22 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title> PRETZ | Saeed Abdullah Al-Ghamdi Sons Company, the exclusive agent in the Kingdom of Saudi Arabia </title>
+    <title> برتز | شركة أبناء سعيد عبدالله الغامدي الوكيل ف المملكة العربية السعودية </title>
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/rtl.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!--Custom Stylesheet -->
     <link href="css/custom.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="scroll">
 
     <!-- Body Inner -->
     <div class="body-inner">
@@ -28,8 +36,8 @@
                     <!--Logo-->
                     <div id="logo">
                         <a href="index.html">
-                            <img src="images/Pretz-logo.png" class="logo-default p-3">
-                            <img src="images/Pretz-logo.png" class="logo-dark p-3">
+                            <img src="images/Pretz-logo.png" alt="شركة أبناء سعيد عبدالله الغامدي" class="logo-default p-3">
+                            <img src="images/Pretz-logo.png" alt="شركة أبناء سعيد عبدالله الغامدي" class="logo-dark p-3">
                         </a>
                     </div>
                     <!--End: Logo-->
@@ -39,10 +47,10 @@
                         <ul>
                             <li>
                                 <div class="p-dropdown">
-                                    <a href="#"><i class="icon-globe"></i><span>EN</span></a>
+                                    <a href="#"><i class="icon-globe"></i><span>ع</span></a>
                                     <ul class="p-dropdown-content">
-                                        <li><a href="ar/index.html">العربية</a></li>
-                                        <li><a href="index.html">English</a></li>
+                                        <li><a href="index.html">العربية</a></li>
+                                        <li><a href="en/index.html">English</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -53,25 +61,25 @@
                     <!--Navigation Resposnive Trigger-->
                     <div id="mainMenu-trigger"> <a class="lines-button x"><span class="lines"></span></a> </div>
                     <!--end: Navigation Resposnive Trigger-->
+
                     <!--Navigation-->
                     <div id="mainMenu">
                         <div class="container">
+                            <nav class="pl-5">
+                                <ul>
+                                    <li><a href="#" class="company-title"> شركة أبناء سعيد عبدالله الغامدي </a></li>
+                                </ul>
+                            </nav>
 
-                            <nav class="pl-4">
+                            <nav class="pr-5">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="#products">Products</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+
+                                    <li><a href="index.html">الرئيسية</a></li>
+                                    <li><a href="#products">المنتجات</a></li>
+                                    <li><a href="#about">عن الشركة</a></li>
+                                    <li><a href="#contact">تواصل معنا</a></li>
                                 </ul>
                             </nav>
-                                                
-                            <nav class="">
-                                <ul>
-                                    <li><a href="#" class="company-title"> Saeed Abdullah Al-Ghamdi Sons Company </a></li>
-                                </ul>
-                            </nav>
-                    
                         </div>
                     </div>
                     <!--end: Navigation-->
@@ -100,17 +108,17 @@
                     <div class="text-middle">
                         <div class="row">
                             <div class="col-lg-6 text-dark">
-                                <h1 class="text-lg">PRETZ</h1>
-                                <p class="lead m-b-80">PRETZ officially launched as a sweet snack in 1963, becoming one
-                                    of Glico’s long-standing brands. Now with a wider range of flavours, it has garnered
-                                    fans from all walks of life.
+                                <h1 class="text-lg">برتز</h1>
+                                <p class="lead m-b-80">
+                                    تم إطلاق PRETZ رسميًا كوجبة خفيفة حلوة في عام 1963 ، لتصبح واحدة من العلامات
+                                    التجارية العريقة لشركة Glico. الآن مع مجموعة واسعة من النكهات ، استقطب المعجبين من
+                                    جميع مناحي الحياة.
 
                                 </p>
                                 <p class="lead m-b-80">
-                                    Its long, slim stick shape breaks with a nice snap and can be easily enjoyed as an
-                                    accompaniment alongside any activity. PRETZ's brand promise ‘Hello, me time!’ is a
-                                    representation of its mission to enable customers to enjoy uninterrupted moments of
-                                    being fully absorbed in the things they love.
+                                    عصا البرتز طويلة ورفيعه يمكن بقطمة لطيفة كسرها والاستمتاع بها بسهولة بجانب اى نشاط ,
+                                    وعد العلامة التجارية PRETZ "مرحبًا ، حان الوقت!" هو تمثيل لمهمتها لتمكين العملاء من
+                                    الاستمتاع بلحظات متواصلة من الانغماس الكامل في الأشياء التي يحبونها.
                                 </p>
 
                             </div>
@@ -140,11 +148,9 @@
 
 
                         <div class="text-center">
-                            <h1 class="text-medium">Delicious Biscuits Sticks</h1>
-                            <p class="lead m-b-80">long, slim stick shape breaks with a nice snap!.</p>
+                            <h1 class="text-medium">اصابع البسكويت اللذيذة</h1>
+                            <p class="lead m-b-80">طويله ، عصا رفيعة الشكل تتكسر بلمسة لطيفة !..</p>
                             <img class="img-fluid center" src="assets/deliciousBiscuitsSticks.png" alt="">
-
-
                         </div>
                     </div>
                 </div>
@@ -161,35 +167,25 @@
                         <div class="text-center">
                             <div class="row">
                                 <div class="col-lg-12 pb-5">
-                                    <h1 class="text-medium pb-5">About Us.</h1>
+                                    <h1 class="text-medium pb-5">عن الشركة</h1>
                                 </div>
-                                <div class="col-lg-6 pt-5 text-left">
-                                    <h3>Who We Are?</h3>
+                                <div class="col-lg-6 pt-5">
+                                    <h3>من نحن ؟ </h3>
                                     <p>
-                                        Saeed Abdullah Al-Ghamdi Sons Company was established in 1368 AH / 1949 AD,
-                                        <br>
-                                        founded by the father / Saeed
-                                        Abdullah Al-Ghamdi "may God have mercy on him" in Mecca at first under the name
-                                        of the Saeed Foundation
-                                        Abdullah Al-Ghamdi business in the western region of the Kingdom of Saudi
-                                        Arabia.
+                                        تأسست شركة أبناء سعيد عبدالله الغامدي في عام 1368هـ / 1949م أسسها الوالد / سعيد
+                                        عبد الله الغامدي "يرحمه الله" في مكة المكرمة في البداية تحت اسم مؤسسة سعيد
+                                        عبدالله الغامدي التجارية في المنطقة الغربية من المملكة العربية السعودية. تتمثل
+                                        الإستراتيجية الرئيسية لشركة ابناء سعيد عبد الله الغامدي في تقديم جودة عالية
+                                        ومذاق
+                                        ممتاز من خلال توزيع العلامات التجارية الرائدة في صناعة الحلويات والشوكولاتة
+                                        والبسكويت والمنتجات الغذائية. من أجل تحقيق استراتيجيتنا وخدمة عملائنا بكفاءة،
+                                        تستثمر الشركة بشكل مستمر في فريق إدارتها وتقنيتها لمواجهة التحديات المحلية
+                                        والعالمية من أجل الحفاظ على أعلى معايير الخدمات والعمل كحلقة وصل بين السوق
+                                        السعودي والموردين الدوليين.
                                     </p>
                                     <p>
-                                        represented
-                                        The main strategy of Saeed Abdullah Al-Ghamdi Company is to provide high quality
-                                        and taste
-                                        Excellent by distributing the leading brands in the confectionery and chocolate
-                                        industry
-                                        Biscuits and food products. In order to achieve our strategy and serve our
-                                        clients efficiently,<br>
-                                        The company continuously invests in its management team and technology to meet
-                                        local challenges
-                                        and globalization in order to maintain the highest standards of services and to
-                                        act as a link between the market
-                                        Saudi and international suppliers..</p>
-                                    <p>
-                                        As the Saeed Abdullah Al-Ghamdi Sons Company is the exclusive agent in the Kingdom of Saudi Arabia
-                                         For all kinds of PRETZ biscuits.
+                                        حيث أن شركة أبناء سعيد عبدالله الغامدي الوكيل في المملكة العربية السعودية
+                                        لبسكويت برتز  ( PRETZ ) بجميع انواعه.
                                     </p>
                                 </div>
                                 <div class="col-lg-6">
@@ -200,30 +196,30 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-4 col-12">
-                                        <h3>Our strategy</h3>
+                                        <h3>استراتيجيتنا</h3>
                                         <p>
-                                            Providing our products all over the Kingdom and supporting all departments of the company to provide our customers
-                                             best services
+                                            توفير منتجاتنا في جميع أنحاء المملكة ودعم جميع إدارات الشركة لتزويد عملائنا
+                                            بأفضل الخدمات
                                         </p>
                                     </div>
                                     <div class="col-md-4 col-12">
-                                        <h3> our vision</h3>
-                                        
-                                        <p> Access to the largest number of points of sale to present our products to consumers wherever they are
-                                            in the form of
-                                            Continuing to be a leading trade and investment company with an impact in the Saudi market
-                                            A full commitment to provide the best to our customers and grow our business
-                                        </p>
+                                        <h3> رؤيتنا</h3>
+                                        <p> الوصول الى أكبر عدد من نقاط البيع لتقديم منتجاتنا للمستهلكين أينما كانوا
+                                            بشكل
+                                            مستمر وأن نكون شركة رائدة في التجارة والاستثمار ذات تأثير في السوق السعودي
+                                            والالتزام الكامل بتقديم الأفضل لعملائنا وتنمية أعمالنا </p>
                                     </div>
                                     <div class="col-md-4 col-12">
-                                        <h3>our mission </h3>
-                                        <p>  Provide our products to the consumer in the right place and time, in the right quantity and price
-                                            appropriate, and provide all available means for the company to achieve success, and provide services
-                                            High
-                                            Quality for our customers and society</p>
+                                        <h3>مهمتنا </h3>
+                                        <p> تقديم منتجاتنا للمستهلك في المكان والزمان المناسبين وبالكمية المناسبة والسعر
+                                            المناسب، وتوفير جميع الوسائل المتاحة للشركة لتحقيق النجاح، وتقديم خدمات
+                                            عالية
+                                            الجودة لعملائنا والمجتمع </p>
                                     </div>
                                 </div>
                             </div>
+
+
 
                         </div>
                     </div>
@@ -239,22 +235,22 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="widget">
-                            
-                                <div class="widget-title">Contact Us</div>
-                                Email :  <a href="#">
+
+                                <div class="widget-title">تواصل معنا</div>
+                                الايميل: <a href="#">
                                     info@ssagc.com.sa
                                 </a>
                                 <br>
                                 <abbr title="Phone">
-                                    Mobile Phone : +0126514420
+                                    رقم الهاتف : +0126514420
                                 </abbr>
                                 <br>
                                 <span>
-                                    General Manager of the company, Mr. Abdullah Saeed Abdullah Al-Ghamdi
+                                    مدير عام الشركة الأستاذ / عبد الله سعيد عبد الله الغامدي
                                 </span>
                                 <br>
                                 <abbr title="Phone">
-                                     Mobile Phone : 00966553533530
+                                    رقم الهاتف : 00966553533530
                                 </abbr>
                             </div>
                         </div>
@@ -264,20 +260,21 @@
                                 <div class="col-lg-6">
 
                                     <address>
-                                        <strong>Address</strong><br>
-                                    
-                                        Kingdom Saudi Arabia
+                                        <strong>العنوان</strong><br>
+
+                                        المملكة العربية السعودية
                                         <br>
-                                        Jeddah - Al Sharafiyah District - Al Madinah Talee Road
+                                        جدة – حي الشرفية -طريق المدينة الطالع
                                         <br>
-                                        After the intersection of King Abdullah Road with Al-madina Talee Road
+                                        بعد تقاطع طريق الملك عبدالله مع طريق
+                                        المدينة الطالع
                                         <br>
-                                    
+
                                     </address>
                                 </div>
                                 <div class="col-lg-6">
                                     <address>
-                                        <strong>Find us</strong><br>
+                                        <strong>الخريطه</strong><br>
                                         <iframe
                                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4446.1941084238015!2d39.18016741888629!3d21.511995968999823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2d9fb5e64e088612!2zMjHCsDMwJzQyLjkiTiAzOcKwMTAnNTcuMiJF!5e0!3m2!1sen!2seg!4v1667984606450!5m2!1sen!2seg"
                                             width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"
@@ -294,8 +291,10 @@
             <div class="copyright-content">
                 <div class="container">
                     <div class="copyright-text text-center">
-                        All Rights Reserved.<a href="#" target="_blank" rel="noopener">
-                            Saeed Abdullah Al-Ghamdi Sons Company</a> &copy; 2022</div>
+                        جميع الحقوق محفوظة.
+                        <a href="#" target="_blank" rel="noopener">
+                            لشركة ابناء سعيد عبدالله الغامدي</a>&copy; 2022
+                    </div>
                 </div>
             </div>
         </footer>
@@ -313,6 +312,15 @@
     <!--Template functions-->
     <script src="js/functions.js"></script>
 
+    
+    <!-- Change logo with Company Title on Mobile View -->
+    <script>
+        if (navigator.userAgent.match(/Mobile/)) {
+            document.getElementById('logo').innerHTML = '<a href="index.html"><h1 class="company-title">شركة أبناء سعيد عبدالله الغامدي</span></h1>';
+        }
+    </script>
+
+    
 </body>
 
 </html>

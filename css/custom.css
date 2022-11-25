@@ -30,3 +30,13 @@ h1,.text-dark h1{
     font-size: 20px !important;
     font-weight: 700 !important;
 }
+ 
+@media (max-width: 1024px) {
+
+    .company-title {
+        font-size: 11px !important;
+    }
+     #header #logo {
+        top: -10%;
+     }
+}
